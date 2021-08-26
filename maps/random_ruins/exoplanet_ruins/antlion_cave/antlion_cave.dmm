@@ -1,0 +1,59 @@
+"a" = (/turf/template_noop,/area/template_noop)
+"f" = (/obj/item/remains/human,/turf/template_noop,/area/template_noop)
+"h" = (/obj/item/storage/backpack/dufflebag,/obj/item/paper,/obj/item/device/depth_scanner,/obj/item/device/ano_scanner,/obj/item/device/measuring_tape,/turf/template_noop,/area/template_noop)
+"i" = (/obj/item/pickaxe/xeno/three_pick,/obj/item/pickaxe/xeno/two_pick,/turf/template_noop,/area/template_noop)
+"j" = (/obj/item/remains/xeno,/turf/template_noop,/area/template_noop)
+"m" = (/obj/item/device/radio,/turf/template_noop,/area/template_noop)
+"p" = (/obj/item/remains/human,/obj/item/gun/projectile/pistol/holdout,/obj/item/ammo_magazine/pistol/small/empty,/obj/item/ammo_casing/pistol/small,/obj/item/ammo_casing/pistol/small,/turf/template_noop,/area/template_noop)
+"r" = (/mob/living/simple_animal/hostile/antlion,/turf/template_noop,/area/template_noop)
+"s" = (/obj/item/pickaxe/xeno/four_pick,/turf/template_noop,/area/template_noop)
+"t" = (/obj/random/loot,/turf/template_noop,/area/template_noop)
+"u" = (/obj/item/device/flashlight/lantern,/turf/template_noop,/area/template_noop)
+"x" = (/obj/item/ammo_casing/pistol/small,/turf/template_noop,/area/template_noop)
+"y" = (/obj/item/reagent_containers/food/drinks/flask/barflask,/turf/template_noop,/area/template_noop)
+"E" = (/obj/machinery/floodlight{dir = 4},/turf/template_noop,/area/template_noop)
+"G" = (/turf/simulated/mineral/random/high_chance,/area/template_noop)
+"H" = (/obj/item/ammo_casing/pistol/small,/obj/item/ammo_casing/pistol/small,/turf/template_noop,/area/template_noop)
+"I" = (/mob/living/simple_animal/hostile/antlion/mega,/obj/item/remains/xeno,/turf/template_noop,/area/template_noop)
+"J" = (/obj/item/pickaxe,/turf/template_noop,/area/template_noop)
+"K" = (/obj/item/remains/human,/obj/random/loot,/turf/template_noop,/area/template_noop)
+"O" = (/obj/item/storage/wallet/random,/obj/random/coin,/obj/random/cash,/turf/template_noop,/area/template_noop)
+"P" = (/turf/simulated/mineral/random,/area/template_noop)
+"Q" = (/obj/item/material/knife/combat,/turf/template_noop,/area/template_noop)
+"V" = (/obj/machinery/artifact,/turf/template_noop,/area/template_noop)
+"W" = (/obj/item/pickaxe/xeno/hand,/turf/template_noop,/area/template_noop)
+"X" = (/obj/item/pickaxe/xeno/brush,/turf/template_noop,/area/template_noop)
+"Y" = (/turf/simulated/mineral,/area/template_noop)
+
+(1,1,1) = {"
+aaPPPPPPPPPaaaaaYYPPPYYYaaaaaa
+aPPPPPPPPPYYYYYYYPPPPPPYYYaaaa
+PPPPPPPPPPYYYYYYYPPPPPPPPPPaaa
+PPPPraaaaPPPPPPPPPPtjPPPPPPPPa
+PPPpHPaPaPPPPPPPPjaaajPPPPPPPa
+PPPPxxxaxaaaPPPPyfIjaPPPPPPPPa
+PPPPPPPaaPPaaaaarOajPPPPPPPPPa
+aPPPPPPaaPPaaPaPPtarPPPPPPPPPa
+PPPPPPPaaaaaaPPPPPPPPPPPPPPPPP
+aPPPPPPaaPPPPPPPPPPPPGGGGGPPPP
+aPPPGaaPaaPPaPhWPaaaaPPPGGGPPP
+PPPGaaaPaaaaaasfuaPPaPPPPPGPPa
+PPGGGaaaaaaaGGGiXaaPaaPPPPPPPP
+PPPGGParaPaaGGGVGaPPaaPPPPPPPP
+PPPPPaaaaPaaGGGGGaPPaaaPPPPPPP
+aPPPaaPPPPPaaGGGGaaPaaaGPPPPPP
+aPPPaPaaaPPaaGGGGaaaaPaaGGPPPa
+aPPPaaaPaaPaaaaaaaaaaaGGGGGPPa
+aPPPPPPPaaGaaPPaPPPaaPPPPPPPPP
+aPPGGaaaaGaaaPPPPaaaaPPPPPPPPP
+aPPPGaaaaaaaaaPPPaaaaPPPPPPPPa
+aPPPaaPPPPPaaamaaaPPaaPPPPPPPa
+aPPPGaaaaPPPPaaaQaaaaaGGPPPPPa
+aPPPPGGGaaGGPPaaPPaaaGGGPPPPPa
+aPPPPPPGGJGGPPaaPaaaGGGGGPPPaa
+aaPPPPPPPPPGPPaaPKPPPPPGGPPPaa
+aaaaPPPPPPPPPGaaPPPPPPPPPPPaaa
+aaaaaaaaPPPPPPPaPPPPPPPPPPPaaa
+aaaaaaaaaaPPPaEaPPPPPPPPPaaaaa
+aaaaaaaaaaaPPaaaPPaaaaaaaaaaaa
+"}
