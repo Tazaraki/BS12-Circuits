@@ -5,4 +5,4 @@
 	suffixes = list("antlion_cave/antlion_cave.dmm")
 	spawn_cost = 1
 	template_flags = TEMPLATE_FLAG_CLEAR_CONTENTS|TEMPLATE_FLAG_NO_RUINS
-	ruin_tags = RUIN_ALIEN
+	ruin_tags = RUIN_ALIEN|RUIN_HABITAT
