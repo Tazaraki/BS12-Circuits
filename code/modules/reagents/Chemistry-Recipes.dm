@@ -921,6 +921,19 @@
 
 /* Slime cores */
 
+/*
+	REFERENCE SHEET
+
+	/datum/reagent/blood = 1,
+	/datum/reagent/toxin/phoron = 1,
+	/datum/reagent/carbon = 1,
+	/datum/reagent/mercury = 1,
+	/datum/reagent/uranium = 1,
+	/datum/reagent/nanoblood = 1,
+	/datum/reagent/toxin/carpotoxin = 1
+
+*/
+
 /datum/chemical_reaction/slime
 	hidden_from_codex = TRUE
 	mix_message = "The slime core twitches sharply."
@@ -965,6 +978,25 @@
 /datum/chemical_reaction/slime/monkey/on_reaction(datum/reagents/holder)
 	..()
 	for(var/i = 1, i <= 3, i++)
+		new /obj/item/reagent_containers/food/snacks/monkeycube(get_turf(holder.my_atom))
+
+/datum/chemical_reaction/slime/monkey2
+	name = "Slime Monkey2"
+	result = null
+	required_reagents = list(/datum/reagent/carbon = 1)
+	result_amount = 1
+	required = /obj/item/slime_extract/grey
+	var/list/cubeamount = list(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+	var/cubechosen
+
+/datum/chemical_reaction/slime/monkey2/on_reaction(datum/reagents/holder)
+	..()
+
+	if (cubeamount.len > 9)
+		cubechosen = pick(cubeamount)
+		cubeamount -= cubechosen
+
+	for(var/i = 1, i <= cubechosen, i++)
 		new /obj/item/reagent_containers/food/snacks/monkeycube(get_turf(holder.my_atom))
 
 //Green
