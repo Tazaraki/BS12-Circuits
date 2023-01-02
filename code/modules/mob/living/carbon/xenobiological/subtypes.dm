@@ -81,4 +81,95 @@
 			return /obj/item/slime_extract/adamantine
 		if("black")
 			return /obj/item/slime_extract/black
+		//Tier TEST
+		if("flesh")
+			return /obj/item/slime_extract/flesh
+		if("uranium")
+			return /obj/item/slime_extract/uranium
+		if("phoron")
+			return /obj/item/slime_extract/phoron
+		if("diamond")
+			return /obj/item/slime_extract/diamond
+		if("hematite")
+			return /obj/item/slime_extract/hematite
+		if("cinnabar")
+			return /obj/item/slime_extract/cinnabar
+		if("pitchblende")
+			return /obj/item/slime_extract/pitchblende
+		if("copper")
+			return /obj/item/slime_extract/copper
+		if("graphite")
+			return /obj/item/slime_extract/graphite
+		if("sand")
+			return /obj/item/slime_extract/sand
+		if("bauxite")
+			return /obj/item/slime_extract/bauxite
+		if("rutile")
+			return /obj/item/slime_extract/rutile
+		if("platinum")
+			return /obj/item/slime_extract/platinum
+		if("gunmetal")
+			return /obj/item/slime_extract/gunmetal
+		if("eerie")
+			return /obj/item/slime_extract/eerie
+		if("xanadu")
+			return /obj/item/slime_extract/xanadu
+		if("persimmon")
+			return /obj/item/slime_extract/persimmon
+		if("ochre")
+			return /obj/item/slime_extract/ochre
+		if("sinopia")
+			return /obj/item/slime_extract/sinopia
+		if("brown")
+			return /obj/item/slime_extract/brown
+		if("umber")
+			return /obj/item/slime_extract/umber
+		if("fallow")
+			return /obj/item/slime_extract/fallow
+		if("canary yellow")
+			return /obj/item/slime_extract/canaryyellow
+		if("flax")
+			return /obj/item/slime_extract/flax
+		if("honey")
+			return /obj/item/slime_extract/honey
+		if("aqua")
+			return /obj/item/slime_extract/aqua
+		if("glaucous")
+			return /obj/item/slime_extract/glaucous
+		if("aero")
+			return /obj/item/slime_extract/aero
+		if("prussian blue")
+			return /obj/item/slime_extract/prussianblue
+		if("zomp")
+			return /obj/item/slime_extract/zomp
+		if("virdigris")
+			return /obj/item/slime_extract/virdigris
+		if("paua")
+			return /obj/item/slime_extract/paua
+		if("maroon")
+			return /obj/item/slime_extract/maroon
+		if("tuscan")
+			return /obj/item/slime_extract/tuscan
+		if("carmine")
+			return /obj/item/slime_extract/carmine
+		if("arbor")
+			return /obj/item/slime_extract/arbor
+		if("chartreuse")
+			return /obj/item/slime_extract/chartreuse
+		if("celadon")
+			return /obj/item/slime_extract/celadon
+		if("volt")
+			return /obj/item/slime_extract/volt
+		if("olive")
+			return /obj/item/slime_extract/olive
+		if("magenta")
+			return /obj/item/slime_extract/magenta
+		if("blush")
+			return /obj/item/slime_extract/blush
+		if("seance")
+			return /obj/item/slime_extract/seance
+		if("lavender")
+			return /obj/item/slime_extract/lavender
+		if("periwinkle")
+			return /obj/item/slime_extract/periwinkle
 	return /obj/item/slime_extract/grey
