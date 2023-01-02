@@ -124,6 +124,186 @@
 	name = "rainbow slime extract"
 	icon_state = "rainbow slime extract"
 
+/obj/item/slime_extract/flesh
+	name = "flesh slime extract"
+	icon_state = "flesh slime extract"
+
+/obj/item/slime_extract/uranium
+	name = "uranium slime extract"
+	icon_state = "uranium slime extract"
+
+/obj/item/slime_extract/phoron
+	name = "phoron slime extract"
+	icon_state = "phoron slime extract"
+
+/obj/item/slime_extract/diamond
+	name = "diamond slime extract"
+	icon_state = "diamond slime extract"
+
+/obj/item/slime_extract/hematite
+	name = "hematite slime extract"
+	icon_state = "hematite slime extract"
+
+/obj/item/slime_extract/cinnabar
+	name = "cinnabar slime extract"
+	icon_state = "cinnabar slime extract"
+
+/obj/item/slime_extract/pitchblende
+	name = "pitchblende slime extract"
+	icon_state = "pitchblende slime extract"
+
+/obj/item/slime_extract/copper
+	name = "copper slime extract"
+	icon_state = "copper slime extract"
+
+/obj/item/slime_extract/graphite
+	name = "graphite slime extract"
+	icon_state = "graphite slime extract"
+
+/obj/item/slime_extract/sand
+	name = "sand slime extract"
+	icon_state = "sand slime extract"
+
+/obj/item/slime_extract/bauxite
+	name = "bauxite slime extract"
+	icon_state = "bauxite slime extract"
+
+/obj/item/slime_extract/rutile
+	name = "rutile slime extract"
+	icon_state = "rutile slime extract"
+
+/obj/item/slime_extract/platinum
+	name = "platinum slime extract"
+	icon_state = "platinum slime extract"
+
+/obj/item/slime_extract/gunmetal
+	name = "gunmetal slime extract"
+	icon_state = "gunmetal slime extract"
+
+/obj/item/slime_extract/eerie
+	name = "eerie slime extract"
+	icon_state = "eerie slime extract"
+
+/obj/item/slime_extract/xanadu
+	name = "xanadu slime extract"
+	icon_state = "xanadu slime extract"
+
+/obj/item/slime_extract/persimmon
+	name = "persimmon slime extract"
+	icon_state = "persimmon slime extract"
+
+/obj/item/slime_extract/ochre
+	name = "ochre slime extract"
+	icon_state = "ochre slime extract"
+
+/obj/item/slime_extract/sinopia
+	name = "sinopia slime extract"
+	icon_state = "sinopia slime extract"
+
+/obj/item/slime_extract/brown
+	name = "brown slime extract"
+	icon_state = "brown slime extract"
+
+/obj/item/slime_extract/umber
+	name = "umber slime extract"
+	icon_state = "umber slime extract"
+
+/obj/item/slime_extract/fallow
+	name = "fallow slime extract"
+	icon_state = "fallow slime extract"
+
+/obj/item/slime_extract/canaryyellow
+	name = "canary yellow slime extract"
+	icon_state = "canary yellow slime extract"
+
+/obj/item/slime_extract/flax
+	name = "flax slime extract"
+	icon_state = "flax slime extract"
+
+/obj/item/slime_extract/honey
+	name = "honey slime extract"
+	icon_state = "honey slime extract"
+
+/obj/item/slime_extract/aqua
+	name = "aqua slime extract"
+	icon_state = "aqua slime extract"
+
+/obj/item/slime_extract/glaucous
+	name = "glaucous slime extract"
+	icon_state = "glaucous slime extract"
+
+/obj/item/slime_extract/aero
+	name = "aero slime extract"
+	icon_state = "aero slime extract"
+
+/obj/item/slime_extract/prussianblue
+	name = "prussian blue slime extract"
+	icon_state = "prussian blue slime extract"
+
+/obj/item/slime_extract/zomp
+	name = "zomp slime extract"
+	icon_state = "zomp slime extract"
+
+/obj/item/slime_extract/virdigris
+	name = "virdigris slime extract"
+	icon_state = "virdigris slime extract"
+
+/obj/item/slime_extract/paua
+	name = "paua slime extract"
+	icon_state = "paua slime extract"
+
+/obj/item/slime_extract/maroon
+	name = "maroon slime extract"
+	icon_state = "maroon slime extract"
+
+/obj/item/slime_extract/tuscan
+	name = "tuscan slime extract"
+	icon_state = "tuscan slime extract"
+
+/obj/item/slime_extract/carmine
+	name = "carmine slime extract"
+	icon_state = "carmine slime extract"
+
+/obj/item/slime_extract/arbor
+	name = "arbor slime extract"
+	icon_state = "arbor slime extract"
+
+/obj/item/slime_extract/chartreuse
+	name = "chartreuse slime extract"
+	icon_state = "chartreuse slime extract"
+
+/obj/item/slime_extract/celadon
+	name = "celadon slime extract"
+	icon_state = "celadon slime extract"
+
+/obj/item/slime_extract/volt
+	name = "volt slime extract"
+	icon_state = "volt slime extract"
+
+/obj/item/slime_extract/olive
+	name = "olive slime extract"
+	icon_state = "olive slime extract"
+
+/obj/item/slime_extract/magenta
+	name = "magenta slime extract"
+	icon_state = "magenta slime extract"
+
+/obj/item/slime_extract/blush
+	name = "blush slime extract"
+	icon_state = "blush slime extract"
+
+/obj/item/slime_extract/seance
+	name = "seance slime extract"
+	icon_state = "seance slime extract"
+
+/obj/item/slime_extract/lavender
+	name = "lavender slime extract"
+	icon_state = "lavender slime extract"
+
+/obj/item/slime_extract/periwinkle
+	name = "periwinkle slime extract"
+	icon_state = "periwinkle slime extract"
+
 ////Pet Slime Creation///
 
 /obj/item/slimepotion
