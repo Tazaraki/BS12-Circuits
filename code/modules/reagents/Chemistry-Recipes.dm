@@ -932,17 +932,19 @@
 	/datum/reagent/nanoblood = 1,
 	/datum/reagent/toxin/carpotoxin = 1
 
-	/obj/item/reagent_containers/food/snacks/fish/space_carp
-	/obj/item/reagent_containers/ivbag/nanoblood
+	Spawn the correct fish reagent type for easy testing.
 
-	SLIME NOTES
+	/obj/item/reagent_containers/food/snacks/fish/TYPE
 
-	Every slime belongs to a family. These families are code specific.
-	If the slime is in /general/, then it has no special properties.
+	Inhibitors are added to each on_reaction to prevent double reactions.
+	This will also make the slime extract worthless until they are drained.
+	Water will always inhibit a reaction.
 
 */
 
-//This code lets all slimes react to being injected.
+
+///This code lets all slimes react to being injected.
+
 
 /datum/chemical_reaction/slime
 	hidden_from_codex = TRUE
@@ -968,79 +970,88 @@
 
 
 
-
-
-//GREY SLIME
+///GREY SLIME
 
 /datum/chemical_reaction/slime/grey
 	result = null
 	result_amount = 1
 	required = /obj/item/slime_extract/grey
-	mix_message = "The slime core begins to froth, bubbles separating and solidifying stochastically. They turn brown rapidly as they part, coalescing into cubes."
 
 /datum/chemical_reaction/slime/grey/blood
 	name = "Grey Slime Monkey Cube Spawner"
 	required_reagents = list(/datum/reagent/blood = 1)
+	inhibitors = list(/datum/reagent/water, /datum/reagent/toxin/phoron, /datum/reagent/carbon, /datum/reagent/mercury, /datum/reagent/uranium, /datum/reagent/nanoblood, /datum/reagent/toxin/carpotoxin)
 
 /datum/chemical_reaction/slime/grey/blood/on_reaction(datum/reagents/holder)
 	..()
+	holder.my_atom.visible_message(SPAN_BOLD("The slime core begins to froth, bubbles separating and solidifying stochastically. They turn brown rapidly as they part, coalescing into cubes."))
 	for(var/i = 1, i <= 3, i++)
 		new /obj/item/reagent_containers/food/snacks/monkeycube(get_turf(holder.my_atom))
 
 /datum/chemical_reaction/slime/grey/phoron
 	name = "Grey Slime New Slime Spawner"
 	required_reagents = list(/datum/reagent/toxin/phoron = 1)
-	mix_message = "The core quivers as phoron is administered, convulsing and expanding to the size of a newly-split slime!"
+	inhibitors = list(/datum/reagent/water, /datum/reagent/blood, /datum/reagent/carbon, /datum/reagent/mercury, /datum/reagent/uranium, /datum/reagent/nanoblood, /datum/reagent/toxin/carpotoxin)
 
 /datum/chemical_reaction/slime/grey/phoron/on_reaction(datum/reagents/holder)
 	..()
+	holder.my_atom.visible_message(SPAN_BOLD("The core quivers as phoron is administered, convulsing and expanding to the size of a newly-split slime!"))
 	new /mob/living/carbon/slime(get_turf(holder.my_atom))
+	qdel(holder)
 
 /datum/chemical_reaction/slime/grey/carbon
 	name = "Grey Slime Stok Cube Spawner"
 	required_reagents = list(/datum/reagent/carbon = 1)
+	inhibitors = list(/datum/reagent/water, /datum/reagent/toxin/phoron, /datum/reagent/blood, /datum/reagent/mercury, /datum/reagent/uranium, /datum/reagent/nanoblood, /datum/reagent/toxin/carpotoxin)
 
 /datum/chemical_reaction/slime/grey/carbon/on_reaction(datum/reagents/holder)
 	..()
+	holder.my_atom.visible_message(SPAN_BOLD("The slime core begins to froth, bubbles separating and solidifying stochastically. They turn brown rapidly as they part, coalescing into cubes."))
 	for(var/i = 1, i <= 3, i++)
 		new /obj/item/reagent_containers/food/snacks/monkeycube/stokcube(get_turf(holder.my_atom))
 
 /datum/chemical_reaction/slime/grey/mercury
 	name = "Grey Slime Farwa Cube Spawner"
 	required_reagents = list(/datum/reagent/mercury = 1)
+	inhibitors = list(/datum/reagent/water, /datum/reagent/toxin/phoron, /datum/reagent/carbon, /datum/reagent/blood, /datum/reagent/uranium, /datum/reagent/nanoblood, /datum/reagent/toxin/carpotoxin)
 
 /datum/chemical_reaction/slime/grey/mercury/on_reaction(datum/reagents/holder)
 	..()
+	holder.my_atom.visible_message(SPAN_BOLD("The slime core begins to froth, bubbles separating and solidifying stochastically. They turn brown rapidly as they part, coalescing into cubes."))
 	for(var/i = 1, i <= 3, i++)
 		new /obj/item/reagent_containers/food/snacks/monkeycube/farwacube(get_turf(holder.my_atom))
 
 /datum/chemical_reaction/slime/grey/uranium
 	name = "Grey Slime Neaera Cube Spawner"
 	required_reagents = list(/datum/reagent/uranium = 1)
+	inhibitors = list(/datum/reagent/water, /datum/reagent/toxin/phoron, /datum/reagent/carbon, /datum/reagent/mercury, /datum/reagent/blood, /datum/reagent/nanoblood, /datum/reagent/toxin/carpotoxin)
 
 /datum/chemical_reaction/slime/grey/uranium/on_reaction(datum/reagents/holder)
 	..()
+	holder.my_atom.visible_message(SPAN_BOLD("The slime core begins to froth, bubbles separating and solidifying stochastically. They turn brown rapidly as they part, coalescing into cubes."))
 	for(var/i = 1, i <= 3, i++)
 		new /obj/item/reagent_containers/food/snacks/monkeycube/neaeracube(get_turf(holder.my_atom))
 
 /datum/chemical_reaction/slime/grey/nanoblood
 	name = "Grey Slime Positronic Cube Spawner"
 	required_reagents = list(/datum/reagent/nanoblood = 1)
-	mix_message = "The slime core begins to froth, metallic bubbles secernating and constellating together in an incomprehensibly enjoined fashion. The clumped spume takes on a dull tan color, fusing into a cube covered in shallow recesses."
+	inhibitors = list(/datum/reagent/water, /datum/reagent/toxin/phoron, /datum/reagent/carbon, /datum/reagent/mercury, /datum/reagent/uranium, /datum/reagent/blood, /datum/reagent/toxin/carpotoxin)
 
 /datum/chemical_reaction/slime/grey/nanoblood/on_reaction(datum/reagents/holder)
 	..()
+	holder.my_atom.visible_message(SPAN_BOLD("The slime core begins to froth, metallic bubbles secernating and constellating together in an incomprehensibly enjoined fashion. The clumped spume takes on a dull tan color, fusing into a cube covered in shallow recesses."))
 	new /obj/item/organ/internal/posibrain(get_turf(holder.my_atom))
 
 /datum/chemical_reaction/slime/grey/carpotoxin
 	name = "Grey Slime Pike Cube Spawner"
 	required_reagents = list(/datum/reagent/toxin/carpotoxin = 1)
+	inhibitors = list(/datum/reagent/water, /datum/reagent/toxin/phoron, /datum/reagent/carbon, /datum/reagent/mercury, /datum/reagent/uranium, /datum/reagent/nanoblood, /datum/reagent/blood)
 
 /datum/chemical_reaction/slime/grey/carpotoxin/on_reaction(datum/reagents/holder)
 	..()
+	holder.my_atom.visible_message(SPAN_BOLD("The slime core begins to froth, bubbles separating and solidifying stochastically. They turn brown rapidly as they part, coalescing into cubes."))
 	for(var/i = 1, i <= 3, i++)
 		new /obj/item/reagent_containers/food/snacks/monkeycube/pikecube(get_turf(holder.my_atom))
-
 
 
 
@@ -1072,6 +1083,9 @@
 
 
 */
+
+
+
 
 
 
